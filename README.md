@@ -12,6 +12,7 @@ a través de la web para que un asesor se contacte con ellos.
 Vos como parte del equipo de desarrollo debes realizar el maquetado HTML de este sitio web, dándole estilos al mismo con la utilización de CSS
 
 Los datos que se deben solicitar son los siguientes:
+
      ● Nombre
      ● Apellido
      ● DNI
