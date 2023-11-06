@@ -1,0 +1,158 @@
+/* General */
+body {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    text-align: center;    
+}
+
+.block1 {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    float: left;
+}
+.social-media {
+    float: right;
+}
+
+.header-initial {
+    font-family: 'Alex Brush';
+    color: rgb(0, 0, 0);
+    font-size: 96px;
+    font-weight: lighter;
+}
+
+/* Form */
+.contact {
+    display:flex;
+    justify-content: center; /*centra horizontalmente*/
+    align-items: center; /*centra verticalmente*/
+}
+
+form {
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;  /*borde redondeado*/
+    width: 400px;
+    padding: 20px 40px;
+    box-shadow: 0 20px 25px rgba(91, 94, 97, 0.2);  /*sombra*/
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.input {
+    position:relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+input, textarea, select {
+    top: 0px;
+    left: 0px;
+    border: 1px solid #e0dde0;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    color: rgb(94, 94, 94);
+    z-index: 1;
+}
+
+p{
+    border: 1px solid #e0dde0;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 16px;
+    padding: 14px 10px 14px 10px;
+    color: rgb(94, 94, 94);
+    background: #ffffff;
+    text-align: left;
+}
+
+input:focus, textarea:focus {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+select{
+    width: 106%;
+}
+
+select:focus {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#message {
+    padding: 10px 10px;
+    height: 80px;
+    resize: none;
+}
+
+::placeholder {
+    color: rgb(94, 94, 94);
+}
+
+button {
+    display: block;
+    float: right;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size: 16px;
+    margin-top: 60px;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: plum;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    margin-top:50px;
+    background-color: rgb(68, 68, 68);    
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.facebook, .instagram, .whatsapp {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.social-links:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    text-align: center;
+    background-color: darkgray ;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush" rel="stylesheet">
+
+    <!-- Iconos de Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="block1">
+            <div class="mail">
+                <a>ataraksya.vs@gmail.com</a>
+            </div>
+            <div class="social-media">
+                <a>Seguinos en las redes</a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div>
+            <a class="header-initial">VS</a>
+        </div>        
+    </header>
+
+    <main>
+        <section class="contact">
+            <form action="#" target="_parent">
+                
+                <h1 class="title">Formulario de contacto</h1>
+                
+                <div class="input">
+                    <input type="text" id="name" placeholder="Nombre">
+                </div>
+                <div class="input">
+                    <input type="text" id="lastname" placeholder="Apellido">
+                </div>
+                <div class="input">
+                    <input type="number" id="dni" placeholder="DNI">
+                </div>
+                <div class="input">
+                    <input type="email" id="email" placeholder="EMAIL">
+                </div>
+                <div class="input">
+                    <select id="typeinsurance" onchange='precio()'>
+                        <option value="">Seleccione tipo de seguro</option>
+                        <option value="500">Basico</option>
+                        <option value="1000">Intermedio</option>
+                        <option value="1500">Premium</option>
+                    </select>                                
+                </div>
+                <div class="input">
+                    <p id="precio">-------------------------</p>
+                </div>        
+                <div class="input">
+                    <textarea id="message" placeholder="Dejanos tu mensaje"></textarea>
+                </div>    
+
+                <button type="submit">Enviar</button>       
+                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+        </div>
+        <section class="copyright">
+            &copy; Copyright <strong><span>Ataraksya</span></strong>. All Rights Reserved
+        </section>
+    </footer>
+
+    <script src="/assets/js/formulario.js"></script>
+
+</body>
+</html>
